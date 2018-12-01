@@ -7,11 +7,11 @@
 	ExtractorRadius=90;
 	MapHardness=315;
 	AutoShowMetal=1;
-	//SpecularTex=specular.png;	
+	SpecularTex=specular.png;	
 	detailNormalTex=normal.png;
 
 	[SMF]{
-	maxheight=1200;
+	maxheight=2400;
 	minheight=0;
 	}
 

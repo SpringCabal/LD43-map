@@ -1,6 +1,6 @@
 [MAP]
 {
-	Description=20x10, made by Bluestone.;
+	Description=20x20, made by Bluestone for LD43.;
 	TidalStrength=16;
 	Gravity=115;
 	MaxMetal=2.95;

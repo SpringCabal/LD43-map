@@ -9,8 +9,7 @@ local mapinfo = {
 	description = "20x20, made by Bluestone for LD43.",
 	author      = "Bluestone",
 	version     = "",
-	--mutator   = "deployment";
-	--mapfile   = "", --// location of smf/sm3 file (optional)
+	mapfile     = "maps/Eyam.smf",
 	modtype     = 3, --// 1=primary, 0=hidden, 3=map
 	depend      = {"Map Helper v1"},
 	replace     = {},
@@ -40,7 +39,6 @@ local mapinfo = {
 		--grassBladeTex    	= "grassbladetex.bmp",
 		--grassShadingTex  	= "grassshading.bmp",
 		specularTex = "specular.png",
-		splatDetailTex = "foobar",
 		splatDetailNormalDiffuseAlpha = 1,
 		splatDetailNormalTex1 = "dnts1.png",
 		splatDetailNormalTex2 = "dnts2.png",
@@ -68,7 +66,6 @@ local mapinfo = {
 		sunColor     = {1.0, 1.0, 1.0},
 		skycolor     = {0.60, 0.78, 0.86},
 		skyDir       = {0.0, 0.0, -1.0},
-		skyBox       = "cleardesert.dds",
 
 		cloudDensity = 0.65,
 		cloudColor   = {0.11, 0.18, 0.27},
